@@ -1,66 +1,128 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+/* Universal Selector Reset */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-/* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
+    border: 0 font: inherit;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    font-size: 100%;
+    vertical-align: baseline;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
+
 /* Your code starts here! */
+
+
+/* Nav */
+
+nav a {
+    color: grey;
+    padding: 1%;
+    margin: 0 3%
+}
+
+.divLogo .logo {
+    margin-top: -1.5%;
+    padding-left: 90%;
+}
+
+
+/* top */
+
+.top {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.top #divImg {
+    display: inline-block;
+    height: 500px;
+    width: 49%;
+    vertical-align: middle;
+}
+
+.top #divImg img {
+    margin-top: 8%;
+}
+
+.top #innovation {
+    vertical-align: middle;
+    font-size: 80px;
+    display: inline-block;
+    width: 49%;
+    font-weight: bold;
+}
+
+.top #innovation a {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    padding: 0 auto;
+    border: 1px solid black;
+    font-weight: normal;
+}
+
+
+/* Features and About */
+
+.twoCont {
+    width: 100%
+}
+
+.twoCont div {
+    text-align: center;
+    display: inline-block;
+    width: 49%;
+    margin: 5% auto;
+}
+
+
+/* Code Picture */
+
+.middle-img {
+    width: 100%;
+}
+
+
+/*Services, Product, Vision */
+
+.threeCont {
+    width: 100%;
+    padding-left: 10%;
+    margin: 5% 0;
+}
+
+.threeCont div {
+    text-align: center;
+    display: inline-block;
+    width: 30%;
+    margin: auto;
+}
+
+
+/* Footer */
+
+footer {
+    margin-top: 10%;
+}
+
+h6 {
+    text-align: center;
+}
